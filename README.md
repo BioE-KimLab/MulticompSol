@@ -21,7 +21,7 @@ To use the database and models in this repository, you will need a working insta
 - To train GNN models, first check whether your machine has CUDA and TensorFlow GPU support setup. This is often a machine-specific process, and depends on your graphics card, its supported CUDA versions, the CUDA versions installed, and the TensorFlow version installed (among other factors)
 - GPU use is *not* required for GNN model training, but significant slowdowns may occur if a GPU is not used
 - To train GNN models, use the following code snippets as an example (other options available by using the --help flag or checking source code). 
-  - Subgraph Binary: `nohup python train_subgraph_binary.py -n "Example_BinarySubgraph" > Log_ExampleBinaryConcat.txt &`
+  - Subgraph Binary: `nohup python train_subgraph_binary.py -n "Example_BinarySubgraph" > Log_ExampleBinarySubgraph.txt &`
   - Subgraph Ternary: `nohup python train_subgraph_ternary.py -n "Example_TernarySubgraph" > Log_Example_TernarySubgraph.txt &`
   - Concat Binary: `nohup python train_concat_binary.py -n "Example_BinaryConcat" > Log_ExampleBinaryConcat.txt &`
   - Concat Ternary: `nohup python train_concat_ternary.py -n "Example_TernaryConcat" > Log_Example_TernaryConcat.txt &`
