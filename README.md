@@ -4,6 +4,7 @@ This is a data repository associated with the manuscript titled "Enhancing Predi
 This repository consists of: 
 - A novel small molecule solubility database (for solutes in 1-3 solvents)
 - Code to train multicomponent solubility models (for solutes in 1-3 solvents)
+- Code to perform semi-supervised distillation (for up to student 5 with thresholds of 0.3 and 1)
 
 ## Using this Repository
 
